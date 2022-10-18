@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ############################ start header ############################## */
+.header {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to right,
+      rgb(72, 141, 255, 0.6),
+      rgb(72, 141, 255, 0.6)
+    ),
+    url(../imgs/concert-2527495.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-content {
+  text-align: center;
+}
+.home-content h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  margin: 0.5rem;
+  color: #ccc;
+}
+.home-content p {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+/* ########################## end header #############################  */
+
+/* ########################## start singer section #############################  */
+
+.singer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  text-align: center;
+  padding: 0.625rem;
+  background-color: rgb(72, 141, 255);
+  cursor: pointer;
+  color: #ccc;
+}
+.card-content {
+  background-color: #7e7676;
+}
+.singer-items {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.col-md-3 {
+  padding: 0 20rem;
+}
+.card-content {
+  display: none;
+}
+
+/* ########################## end singer section #############################  */
+
+/* ########################## start conter section #############################  */
+.counter {
+  height: 21.875rem;
+  background-image: linear-gradient(
+      to right,
+      rgb(72, 141, 255, 0.6),
+      rgb(72, 141, 255, 0.6)
+    ),
+    url(../imgs/puzzle-316638.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem 0;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.item {
+  text-align: center;
+  border: 2px solid #ccc;
+  /* padding: 4rem; */
+  width: 9rem;
+  height: 9rem;
+  color: #ccc;
+  font-weight: 600;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ########################## end conter section #############################  */
+
+/* ########################## start contact section #############################  */
+
+.col-12 h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.contact-info h4 {
+  font-weight: 700;
+}
+.contact-info p {
+  color: #777;
+}
+
+.contact-info li {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 0.4rem;
+}
+
+.icons {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  transition: all 0.5s;
+}
+
+.icon {
+  border: 1px solid #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.35rem;
+  width: fit-content;
+  transition: all 0.5s;
+}
+.icon i {
+  padding: 0.7rem;
+  font-size: 1.6rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.icon:hover {
+  background-color: rgb(72, 141, 255);
+}
+
+.icon:hover i {
+  color: #ccc;
+}
+
+#char {
+  color: rgb(72, 141, 255);
+}
+
+.btn-info {
+  background-color: rgb(72, 141, 255) !important;
+}
+
+/* ########################## end contact section #############################  */
+
+/*########################### slider nav############################## */
+
+.nav-slide {
+  position: fixed;
+  height: 100%;
+  background-color: rgb(119, 119, 119, 0.6);
+  width: 15%;
+  filter: blur(0.5px);
+  left: -227.875px;
+
+  /* display: none; */
+  z-index: 999999999;
+}
+.close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.close i {
+  font-size: 1.5rem;
+}
+
+.nav-slide ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.nav-slide ul li {
+  margin: 2rem 0;
+}
+
+.nav-slide ul li a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+.open {
+  position: absolute;
+  top: 50%;
+  /* right: 25%s; */
+  margin-left: 15%;
+  cursor: pointer;
+  left: -227.875px;
+}
+.open i {
+  font-size: 2rem;
+}
